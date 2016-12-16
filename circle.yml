@@ -10,7 +10,7 @@ test:
 deployment:
   release:
     tag: /v.*/
-    owner: reactiveops
+    owner: philipcristiano
     commands:
       - git fetch --tags
       - curl -O https://raw.githubusercontent.com/reactiveops/release.sh/use-jq/release
