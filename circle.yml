@@ -2,6 +2,10 @@ machine:
   environment:
     GITHUB_ORGANIZATION: $CIRCLE_PROJECT_USERNAME
     GITHUB_REPOSITORY: $CICLE_REPOSITORY_REPONAME
+test:
+  override:
+    - echo "What's going on?"
+    - ls
 
 deployment:
   release:
